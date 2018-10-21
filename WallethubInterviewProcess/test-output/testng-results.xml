@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69401" started-at="2018-10-20T15:14:22Z" finished-at="2018-10-20T15:15:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69401" started-at="2018-10-20T15:14:22Z" finished-at="2018-10-20T15:15:32Z">
+      <class name="com.wallethub.project.utils.WallethubTestCase002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wallethub.project.utils.WallethubTestCase002@5419f379]" name="setup" is-config="true" duration-ms="12469" started-at="2018-10-20T20:44:22Z" description="This will save test case data in our property file" finished-at="2018-10-20T20:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.wallethub.project.utils.WallethubTestCase002@5419f379]" name="testLogin" duration-ms="56905" started-at="2018-10-20T20:44:35Z" description="This testcase will perform Wallethub login, lighiting stars verification, post a review and verify that message." finished-at="2018-10-20T20:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wallethub.project.utils.WallethubTestCase002@5419f379]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-10-20T20:45:32Z" description="This will take screenshot if @Test fails" finished-at="2018-10-20T20:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=WallethubTestCase002.testLogin()[pri:0, instance:com.wallethub.project.utils.WallethubTestCase002@5419f379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:com.wallethub.project.utils.WallethubTestCase002@5419f379]" name="closeDriverInstance" is-config="true" duration-ms="930" started-at="2018-10-20T20:45:32Z" finished-at="2018-10-20T20:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- com.wallethub.project.utils.WallethubTestCase002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
